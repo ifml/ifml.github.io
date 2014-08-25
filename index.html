@@ -1,74 +1,323 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Ifml.github.io : Website sources" />
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description"
+	content="The open source IFML editor based on Eclipse.">
+<meta name="author" content="automobile">
+<link rel="shortcut icon" href="assets/images/favicon/favicon.html">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<title>Open source IFML editor</title>
 
-    <title>Ifml.github.io</title>
-  </head>
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/flat-ui.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="assets/css/main.css" rel="stylesheet">
 
-  <body>
+<link href="assets/css/doc.css" rel="stylesheet">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ifml">View on GitHub</a>
 
-          <h1 id="project_title">Ifml.github.io</h1>
-          <h2 id="project_tagline">Website sources</h2>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 
-        </header>
-    </div>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://platform.twitter.com/widgets.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+</head>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<body>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class=" pull-right navbar-btn">
+				<a href="https://github.com/ifml/ifml-editor"
+					class="github btn btn-primary" target="_BLANK"><img
+					alt="github" src="./assets/images/assets/GitHub-Mark-32px.png">View
+					the GitHub project</a>
+			</div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+			<!--          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> -->
+			<!--               <span class="sr-only">Toggle navigation</span> -->
+			<!--               <span class="icon-bar"></span> -->
+			<!--               <span class="icon-bar"></span> -->
+			<!--               <span class="icon-bar"></span> -->
+			<!--             </button> -->
+			<a class="navbar-brand" href="index.html"><img alt="IFML"
+				src="./assets/images/assets/ifml_logo.png"></a>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+		</div>
+	</div>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+	<!-- Bannerwrap -->
+	<div id="bannerwrap">
+		<div class="container">
+			<div class="row">
+				<h1>
+					<br />The open source <b>IFML</b> editor based on Eclipse.
+				</h1>
+				<a href="./update/site.xml" target="_BLANK" class="btn  btn-lg btn-inverse"><b>Update
+						site</b></a>
+			</div>
+		</div>
+	</div>
+	<!-- /Bannerwrap -->
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+	<!-- Intro Section -->
+	<div class="container sinfo">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h4>
+					The <b>IFML</b> editor is an eclipse plugin based on EMF and
+					Sirius. The tool is under development and will be released soon.
+					Please, follow the steps below to run the tool.
+				</h4>
+			</div>
+		</div>
+		<!-- /row -->
+		<hr>
+	</div>
+	<!-- /container -->
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
-    
 
-  </body>
+
+
+
+
+	<!-- howTo Section -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 ">
+				<div
+					class=" list-group bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top"
+					role="complementary">
+					<ul class="nav bs-docs-sidenav">
+
+						<li class="active"><a href="#update" class="list-group-item">Install
+								the tool from the update site</a></li>
+						<li><a href="#modeling_project" class="list-group-item">Create
+								a new Modeling project</a></li>
+						<li class=""><a href="#core_model" class="list-group-item">Create
+								a Core model</a></li>
+						<li class=""><a href="#editor" class="list-group-item">Initialize
+								the editor</a></li>
+
+
+
+					</ul>
+
+
+				</div>
+			</div>
+			<!-- /col-lg-3 -->
+
+			<div class="col-lg-9 ab">
+
+				<div class="tabmod-a">
+
+
+					<div class="bs-docs-section">
+
+						<h6 id="update">Install the tool from the update site</h6>
+						<hr>
+
+						<p>
+							Download the modeling version of Eclipse Luna (4.4) from the <a
+								href="http://www.eclipse.org/downloads" target="_BLANK">Eclipse
+								Downloads Page</a>.
+						</p>
+
+
+						<div class="thumbnail">
+							<img src="assets/images/assets/modeling_tools.png" alt="" />
+						</div>
+						<p>
+							A <b>Java 7</b> JRE/JDK is required for most of the Eclipse 4.4
+							package downloads. Make sure that the environment is well setup
+							before running Eclipse
+						</p>
+
+
+						<p>
+							Click on <em>Help / Install New Software...</em>. Then, click on
+							<em>Add...</em> and fill the wizard as follows. (The update site
+							is <a href="https://ifml.github.io/update/site.xml"
+								target="_BLANK">https://ifml.github.io/update/site.xml</a>)
+						</p>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/update_site.png" alt="" />
+						</div>
+
+
+						<p>Select the plugin and click on Next</p>
+						<div class="thumbnail">
+							<img src="assets/images/assets/update_site2.png" alt="" />
+						</div>
+
+
+						<p>Follow the rest of the steps (license...) and reboot
+							Eclipse.</p>
+
+					</div>
+
+					<div class="bs-docs-section">
+
+						<h6 id="modeling_project">Create a new Modeling project</h6>
+						<hr>
+
+						<p>
+							In the <em>Model Explorer</em>, create a new <em>Modeling
+								Project</em>.
+						</P>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/modeling_project.png" alt="" />
+						</div>
+						<p>Enter a name then and finish.</p>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/ifml.sample.png" alt="" />
+						</div>
+					</div>
+					<div class="bs-docs-section">
+
+						<h6 id="core_model">Create a Core model</h6>
+						<hr>
+
+						<p>
+							Create the folder <em>models</em> and import your UML model.(You
+							can use this <a
+								href="https://github.com/ifml/ifml-editor/blob/master/examples/org.ifml.sample/models/model.uml"
+								target="_BLANK">sample</a>)
+						</P>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/uml.png" alt="" />
+						</div>
+						<p>
+							Right click on <em>models</em> and select <em>New -> Other
+								-> Example EMF Model Creation Wizards -> Core Model</em>
+						</p>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/core_model.png" alt="" />
+						</div>
+						<p>Enter the file name and click Next</p>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/wizard2.png" alt="" />
+						</div>
+						<p>
+							Click on <em>Browse</em> and select your UML model, click on <em>OK</em>
+							then click on <em>finish</em>
+						</p>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/wizard3.png" alt="" />
+						</div>
+					</div>
+					<div class="bs-docs-section">
+
+						<h6 id="editor">Initialize the editor</h6>
+						<hr>
+
+						<p>
+							Right-click in the <em>Model Explorer</em> view on the <em>Modeling
+								project</em> and select <em>Viewpoint Selection</em>.
+						</P>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/viewpoints_selection.png" alt="" />
+						</div>
+						<p>
+							Activate the viewpoint <em>IFML Core</em> in order to create the
+							representations of IFML diagrams.
+						</p>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/view.png" alt="" />
+						</div>
+
+
+						<p>
+							Right-click on the sample model and select <em>New
+								Representation / new IFMLDiagram</em>. Choice a name for the diagram
+							and hit OK
+						</P>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/new_ifml_diagram.png" alt="" />
+						</div>
+						<p>
+							Then the diagram opens. Bellow is a diagram made by the editor,
+							you can check this sample project from the <a
+								href="https://github.com/ifml/ifml-editor" target="_BLANK">GitHub</a>
+							repository under <em>examples/org.ifml.sample</em>
+						</p>
+						<div class="thumbnail">
+
+							<img src="assets/images/assets/movies_diagram.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<!-- /tabmod-a -->
+			</div>
+
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+
+
+	<!-- FOOTER -->
+	<div id="f">
+		<div class="container">
+			<div class="row">
+
+
+				<div class="col-lg-12">
+					<p>The open source IFML editor</p>
+					<p>
+						<small>Code licensed under the <a
+							href="http://www.eclipse.org/legal/epl-v10.html" target="_BLANK">Eclipse
+								Public License</a>. Documentation licensed under <a
+							href="http://creativecommons.org/licenses/by/3.0/"
+							target="_BLANK">CC BY 3.0</a>.
+						</small>
+					</p>
+				</div>
+
+				<div class="col-lg-4"></div>
+
+				<div class="col-lg-4"></div>
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Footer -->
+
+
+
+
+</body>
+
 </html>

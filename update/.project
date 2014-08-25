@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>org.ifml.editor.updatesite</name>
+	<name>org.ifml.editor.update</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -13,5 +13,5 @@
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.pde.UpdateSiteNature</nature>
-	</natures>
+	</natures>s
 </projectDescription>
